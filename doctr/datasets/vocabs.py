@@ -73,6 +73,11 @@ VOCABS["bangla"] = VOCABS["bangla_letters"] + VOCABS["bangla_digits"]
 VOCABS["ukrainian"] = (
     VOCABS["generic_cyrillic_letters"] + VOCABS["digits"] + VOCABS["punctuation"] + VOCABS["currency"] + "ґіїєҐІЇЄ₴"
 )
+
+VOCABS["tajik"] = (
+    VOCABS["generic_cyrillic_letters"] + VOCABS["digits"] + VOCABS["punctuation"] + "ҒғҚқҲҳҶҷӢӣӮӯ"
+)
+
 VOCABS["multilingual"] = "".join(
     dict.fromkeys(
         VOCABS["french"]
