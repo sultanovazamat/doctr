@@ -75,7 +75,7 @@ VOCABS["ukrainian"] = (
 )
 
 VOCABS["tajik"] = (
-    VOCABS["generic_cyrillic_letters"] + VOCABS["digits"] + VOCABS["punctuation"] + "ёЁъЪҒғҚқҲҳҶҷӢӣӮӯ"
+    VOCABS["generic_cyrillic_letters"] + VOCABS["digits"] + VOCABS["punctuation"] + "ыЫэЭёЁъЪҒғҚқҲҳҶҷӢӣӮӯ"
 )
 
 VOCABS["multilingual"] = "".join(
